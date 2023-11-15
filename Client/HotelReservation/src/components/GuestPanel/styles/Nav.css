@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 150vh;
+}
+.main--nav{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.15);
+    
+}
+.nav-container{
+    display: flex;
+    height: 5.5rem;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1580px;
+    margin: auto;
+    padding: 0 1.5rem 0 1.5rem;    
+}
+.left-items{
+    display: flex;
+    gap: 1.2rem 1.2rem;
+}
+.right-items ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2.5rem 2.5rem;
+}
+.right-items ul li{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.a--home, .a--reserve, .a--about, .a--services{
+   text-decoration: none;
+   color: black;
+}
+.a--home:hover, .a--reserve:hover, .a--about:hover, .a--services:hover{
+    text-decoration: none;
+    color: lightskyblue;
+ }
+ 
